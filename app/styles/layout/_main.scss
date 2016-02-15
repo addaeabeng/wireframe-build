@@ -1,0 +1,55 @@
+.main {
+  width:$mobile-width;
+  margin: 0px;
+  margin-bottom: 4em;
+  padding: $mobile-padding;
+  box-sizing: border-box;
+  .sidebar {
+    display: none;
+  }
+  .featured-main {
+    width:100%;
+    height: auto;
+  }
+
+  .page-content {
+    .aside{
+      display:table-footer-group;
+    }
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: $mobile-devices) {
+  .main {
+    width: $container-width;
+    margin: $default-margin;
+    .page-content {
+      float:left;
+      width:66%;
+      padding-right: 15px;
+      box-sizing: border-box;
+      .aside {
+        float: right;
+        width: 200px;
+        padding: 1em;
+        border: 1px solid;
+        margin: 0 0 1em 1em;
+
+        ul {
+          list-style: disc;
+          padding: 1em;
+        }
+      }
+    }
+    .sidebar {
+      width: 33%;
+      display: block;
+      float: right;
+      .article-img {
+        width:100%;
+        height: auto;
+      }
+    }
+  }
+}

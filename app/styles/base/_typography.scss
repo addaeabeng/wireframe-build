@@ -1,0 +1,33 @@
+body {
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family:$base-font-family;
+  font-weight: $base-font-weight;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  color:$heading-color;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: $base-font-size * 2;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  margin: 0px;
+  font-size: $base-font-size * 2;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+h4 {
+  font-size:$base-font-size;
+}
+
+p {
+  margin-bottom: $base-font-size;
+}
