@@ -1,6 +1,6 @@
 # wireframe-build
 
-Responsive webpage demp. Built with Yeoman, Angular, HTML5, SCSS and a bit of Masonry.
+Responsive webpage demo. Built with Yeoman, Angular, HTML5, SCSS and a bit of Masonry.
 
 ## Build & development
 
